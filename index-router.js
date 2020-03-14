@@ -4,7 +4,7 @@ var pug = require('pug');
 
 var userRouter = require('./routers/user.router');
 var app = express();
-var port = 3000;
+var port = 3001;
 
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded

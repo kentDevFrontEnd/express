@@ -1,2 +1,7 @@
-h2 Name you want view
-span= user.name
+extends ../layouts/common.pug
+
+block content
+	h2 Name you want view
+	span= user.name
+	span &nbsp;
+	a(href="/users") Back

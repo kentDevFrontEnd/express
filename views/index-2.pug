@@ -1,3 +1,7 @@
-h1 Hello
-span= name
-	a(href="/users") users
+extends ./layouts/common.pug
+
+block content
+	h1 Hello
+	div(class="d-fex")
+		span(class="mr-3")= name
+		a(href="/users") users

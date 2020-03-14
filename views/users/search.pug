@@ -1,6 +1,9 @@
-h2 Name when search:
-br
-ul
-	each user in users
-		li= user.name
-	a(href="/users") Back
+extends ../layouts/common.pug
+
+block content
+	h2 Name when search:
+	br
+	ul
+		each user in users
+			li= user.name
+		a(href="/users") Back
